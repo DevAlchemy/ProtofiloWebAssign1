@@ -1,0 +1,491 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body {
+    background-color: #cfcfcf;
+}
+
+
+#navBar {
+    background-color: #6286CA;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
+
+#container {
+    padding: 100px;
+}
+
+#navBar a {
+    padding: 70px;
+    font-family: minecraft;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.Texts {
+    font-family: minecraft;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 20px 0;
+    margin-top: 350px;
+    margin-left: 350px;
+}
+
+#Highname {
+    font-size: 80px;
+    color: #414141;
+}
+
+#lowName {
+    font-size: 70px;
+    color: #6286CA;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2.5s steps(30) 1s 1 normal both;
+    border-right: 4px solid #6286CA;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+        border-right: none;
+    }
+}
+
+#MoreName {
+    font-size: 40px;
+    color: #414141;
+}
+
+.Img {
+
+    text-align: left;
+    justify-content: right;
+
+    margin: -260px 0;
+    margin-right: 620px;
+}
+
+#ImgBefore {
+    border-radius: 70px;
+    margin-left: 1400px;
+    padding: 10px;
+}
+
+#ProHeader {
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 50px;
+    font-size: 100px;
+    font-family: minecraft;
+}
+
+
+.ProjectCards {
+    padding: 20px;
+    margin: 500px 0;
+    background-color: #6286CA;
+    height: 1000px;
+}
+
+
+#SSPMP {
+    width: 1134px;
+}
+
+.Badges {
+    margin: 110px;
+    font-size: 35px;
+}
+
+#Figma{
+    margin-left: 235px;
+
+}
+
+
+#CSS {
+
+    font-size: 75px;
+
+}
+
+#HTML {
+    font-size: 75px;
+}
+
+#btn {
+    text-align: left;
+    margin-left: 330px;
+}
+
+#btn a:hover {
+
+    color: #6286CA;
+    background: transparent;
+    border: 4px solid #6286CA;
+}
+
+#btn a {
+    color: white;
+    font-family: minecraft;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    background-color: #6286CA;
+    border-radius: 5000px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#FM {
+    color: #414141;
+    font-family: minecraft;
+    margin: 200px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+#footer {
+    background-color: #6286CA;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#IMPH {
+    color: white;
+    font-family: minecraft;
+    padding: 10px;
+
+
+}
+
+#IMPHL {
+    padding: 10px;
+}
+
+#IMPHL a i {
+    font-size: 40px;
+    padding: 15px;
+    color: white;
+
+}
+
+#IMPHL a i:hover {
+    color: #161616;
+}
+
+#AboutMeTitle {
+    font-family: minecraft;
+    font-size: 100px;
+    color: #6286CA;
+}
+
+
+#AboutMeCard {
+    margin-top: 200px;
+    margin-left: 800px;
+    max-width: 900px
+}
+
+#infoText {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#visual {
+    margin: -900px 0;
+    margin-left: 600px;
+    z-index: 200;
+}
+
+@media screen and (max-width:992px) {
+
+    .Texts {
+        margin-left: 5px;
+    }
+
+    #Highname {
+        font-size: 30px;
+    }
+
+    #lowName {
+        font-size: 30px;
+    }
+
+    #MoreName {
+        font-size: 20px;
+    }
+
+    #ImgBefore {
+        margin-top: 120px;
+        margin-left: 500px;
+        width: 250px;
+    }
+
+    .Badges{
+        margin-top: 140px;
+        margin-left: -4px;
+        display: flex;
+
+    }
+
+
+    #Figma{
+        padding: 5px;
+        font-size: 30px;
+        margin-left: 2px;
+
+
+    }
+
+    #CSS {
+        padding: 5px;
+
+        font-size: 33px;
+    }
+
+    #HTML {
+        padding: 5px;
+
+        font-size: 33px;
+
+    }
+
+    #btn {
+        margin-left: 10px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    #btn a {
+        font-size: 17px;
+    }
+
+    #navBar {
+        text-align: left;
+        justify-content: left;
+        align-items: left;
+
+    }
+
+    #navBar a {
+        margin-left: 100px;
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    #SSPMP {
+        width: 400px;
+    }
+
+    #loginP {
+        width: 436px;
+    }
+
+    .ProjectCards {
+        height: 750px;
+    }
+
+    #AboutMeCard {
+        margin-left: 50px;
+    }
+
+    #visual {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    #Highname {
+        font-size: 40px;
+    }
+
+    #lowName {
+        font-size: 40px;
+    }
+
+    #MoreName {
+        font-size: 30px;
+    }
+
+
+    .Badges {
+        margin-left: 3px;
+        margin-top: 130px;
+        margin-right: 200px;
+        font-size: 25px;
+    }
+
+    #CSS {
+        font-size: 55px;
+    }
+
+    #HTML {
+        font-size: 55px;
+
+    }
+
+    #btn {
+        margin-left: 5px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    #btn a {
+        font-size: 30px;
+    }
+
+
+
+    #Scroll {
+        margin: 500px 0;
+        margin-left: 150px;
+    }
+
+    #AboutMeCard {
+        margin-left: 150px;
+        width: 700px;
+        height: 505px;
+    }
+
+    #AboutMeTitle{
+        font-size: 40px;
+    }
+
+    #infoText{
+        font-size: 14px;
+    }
+
+    .ProjectCards{
+        width: 1000px;
+    }
+
+    #footer{
+        width: 1000px;
+
+    }
+}
+    
+/*
+
+@media screen and (max-width:1200px) {
+
+
+    .Texts{
+        margin-left: 10px;
+    }
+
+    #Highname {
+        font-size: 30px;
+    }
+
+    #lowName {
+        font-size: 30px;
+    }
+
+    #MoreName {
+        font-size: 20px;
+    }
+
+    #ImgBefore{
+        margin-top: 50px;
+        margin-left: 400px;
+        width: 350px;
+    }
+
+
+    .Badges{
+        margin-left: 5px;
+        margin-top: 90px;    
+
+    }
+
+    #Figma{
+        font-size: 30px;
+        margin-left: 4px;
+    }
+    
+
+    #CSS {
+        font-size: 35px;
+    }
+
+    #HTML {
+        font-size: 35px;
+
+    }
+
+    #btn {
+        margin-left: 10px;
+    }
+
+    #btn a {
+        font-size: 20px;
+    }
+
+
+
+    #Scroll {
+        margin: 600px 0;
+        margin-left: 350px;
+    }
+
+    #AboutMeCard {
+        margin-left: 500px;
+        width: 700px;
+        height: 505px;
+    }
+
+    #visual{
+        margin-left: 200px;
+    }
+
+    #AboutMeTitle{
+        font-size: 40px;
+    }
+
+    #infoText{
+        font-size: 14px;
+    }
+
+    .ProjectCards{
+        width: 2000px;
+    }
+
+    #loginP{
+        width: 650px;
+    }
+
+    #SSPMP{
+        margin-right: 1000px;
+
+        width: 680px;
+    }
+
+    #footer{
+        width: 1000px;
+
+    }
+}
+    */
